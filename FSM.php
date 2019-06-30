@@ -26,6 +26,8 @@
  * @package FSM
  */
 
+namespace Urland\FSM;
+
 /**
  * This class implements a Finite State Machine (FSM).
  *

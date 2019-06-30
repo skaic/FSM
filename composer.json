@@ -5,31 +5,27 @@
             "name": "Jon Parise",
             "homepage": "http://www.indelible.org",
             "role": "Lead"
-        }
+        },
+        {
+            "email": "skcai@topode.com",
+            "name": "蔡顺铠"
+        },
     ],
     "autoload": {
         "psr-0": {
-            "FSM": "./"
+            "Urland\\FSM\\": "./"
         }
     },
     "description": "Finite State Machine",
-    "include-path": [
-        "./"
-    ],
     "license": "MIT License",
-    "name": "pear/fsm",
-    "homepage": "http://pear.github.io/FSM/",
-    "support": {
-        "issues": "https://github.com/pear/FSM/issues",
-        "source": "https://github.com/pear/FSM"
-    },
+    "name": "urland/pub-sub",
     "type": "library",
     "require": {
-        "php": ">=4.0.4",
+        "php": ">=5.3",
         "pear/pear_exception": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
     },
     "suggest": {
         "pear/image_graphviz": "Install optionally via your project's composer.json"
