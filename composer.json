@@ -9,7 +9,7 @@
         {
             "email": "skcai@topode.com",
             "name": "蔡顺铠"
-        },
+        }
     ],
     "autoload": {
         "psr-0": {
